@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22393" started-at="2018-06-20T02:25:34Z" finished-at="2018-06-20T02:25:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22393" started-at="2018-06-20T02:25:34Z" finished-at="2018-06-20T02:25:56Z">
+      <class name="com.testng.DataProviders">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviders@cb5822]" name="login" duration-ms="11549" started-at="2018-06-20T07:55:34Z" data-provider="Guru" finished-at="2018-06-20T07:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviders@cb5822]" name="login" duration-ms="10822" started-at="2018-06-20T07:55:45Z" data-provider="Guru" finished-at="2018-06-20T07:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.testng.DataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
